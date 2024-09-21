@@ -1,0 +1,56 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: mintcream;
+	background-image: url("images/flower-icon.png");
+	background-repeat: repeat;
+	background-size: 32px 32px;
+	background-position:top left;
+	color: #333;
+}
+
+header {
+	background-color: #a8d5ba;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: #f7cac9;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 0 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	background-color: #ffb6d9;
+	border-radius: 5px;
+}
+
+nav ul li a:hover {
+	background-color: #ffd1dc;
+}
+
+section {
+	margin: 20px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	overflow: visible;
+	border-radius: 10px;
+	color: #333;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #a8d5ba;
+	color: #333;
+}
