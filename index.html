@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>La-Tavia's Portfolio :)</title>
+	<link rel="stylesheet" href="../Assets/style.css">
+	<script>
+		function playWelcomeAudio() {
+			const audio = document.getElementById("welcomeAudio");
+			audio.play();
+		}
+	</script>
+</head>
+<body onload="playWelcomeAudio()">
+
+	<header>
+		<h1>Welcome to My Portfolio🙃</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="professional.html">Professional</a></li>
+			<li><a href="personality.html">Personality</a></li>
+			<li><a href="personal-development.html">Personal Development</a></li>
+			<li><a href="storyboard.html">Storyboard</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<h2>About Me :)</h2>
+		<img src="../Assets/images/mypic.jpg" alt="La-Tavia T. Pearce" style="width:200px; border-radius:10px;">
+		<p>Hello, I'm <strong>La-Tavia Tajera Pearce</strong>, a second-year student at The University of Technology, Jamaica (UTech Ja) currently pursuing a degree in B.Sc. Science in Computing. I have a passion for learning and personal growth, and this portfolio showcases my journey and aspirations. Welcome to my personal portfolio website!:-)</p>
+		
+		<h3>Contact Me</h3>
+		<p>If you'd like to reach out to me, feel free to <a href="mailto:pearcelatavia@gmail.com?subject=2305853">send me an email</a></p>
+	</section>
+	
+	<audio id="welcomeAudio">
+		<source src="../Assets/audio/welcome.m4a" type="audio/mp4">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<button onclick="document.getElementById('welcomeAudio').play()">Play Welcome Audio</button>
+	
+	<footer>
+		<p>&copy; 2024 La-Tavia Pearce. All Rights Reserved.</p>
+	</footer>
+	
+</body>
+</html>
+	
